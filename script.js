@@ -143,6 +143,7 @@ document.addEventListener("DOMContentLoaded", () => {
         examTitle.textContent = examEntry.value || "Exam";
     });
 
+
     // --- DRAG TO RESIZE LEFT PANEL ---
     const dragBar = document.getElementById("drag-bar");
     const layout = document.getElementById("layout");
